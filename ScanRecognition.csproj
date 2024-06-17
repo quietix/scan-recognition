@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IronOcr.Languages.Ukrainian" Version="2020.11.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Admin\.nuget\packages\ironocr.languages.ukrainian\2020.11.2\build\\..\OcrData\Ukrainian.ocrdata" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="C:\Users\Admin\.nuget\packages\ironocr.languages.ukrainian\2020.11.2\build\\..\OcrData\Ukrainian.ocrdata" />
+  </ItemGroup>
+
+</Project>
